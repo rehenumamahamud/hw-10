@@ -1,0 +1,82 @@
+* common css start */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+.container{
+    width:1130px;
+    margin:0 auto;
+}
+.row{
+    display:flex;
+    
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
+/* nav start */
+nav{
+    background-color: #fef8ff;
+}
+nav .row{
+    justify-content: space-between;
+    align-items: center;
+}
+nav .row ul li{
+    display: inline-block;
+}
+nav .row ul li a{
+    color:#848484;
+    font-size: 18px; 
+    padding: 96px 28px;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+nav .row ul li a:hover{
+    color:#03b8ef;
+}
+nav .row ul li button{
+    background:linear-gradient(to right, #00b8ef, #53d1f5);
+    padding: 19px 21px;
+    border-radius: 3px;
+    border:none;
+    font-size: 20px;
+    color:white;
+}
+/* nav end */
+/* banner start */
+#banner{
+    background-color: #fef8ff;
+    padding-bottom: 125px;
+}
+#banner .container{
+    background-image: url(./img/banner.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    height:510px;
+}
+#banner .information{
+    width:48%;
+    padding-top: 190px;
+}
+#banner .information h2{
+    font-size: 56px;
+    font-weight: 600;
+    font-family: 'Abril Fatface', serif;
+    width: 560px;
+}
+#banner .information p{
+    font-size: 18px;
+    font-weight:600 ;
+    color:#444444;
+}
+/* banner end */
